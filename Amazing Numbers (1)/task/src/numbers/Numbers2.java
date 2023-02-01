@@ -10,7 +10,8 @@ public class Numbers2 {
     public void run() {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter a natural number:");
-        long n = s.nextInt();
+        long n = s.nextLong();
+
         if (n > 0) {
             showProperties(n);
         } else {
