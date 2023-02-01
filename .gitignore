@@ -1,0 +1,27 @@
+#############
+## Idea
+#############
+
+*.iws
+*.class
+*.jar
+*.gradle
+*.yaml
+*.properties
+*.html
+*.css
+*.bin
+
+# Project exclude paths
+/Amazing Numbers/*
+/Amazing Numbers (1)/task/test/*
+/Amazing Numbers (1)/task/build/
+
+#!/Amazing Numbers (1)/task/src/numbers/
+target/
+/.idea/
+/.gradle/
+gradle*
+/out/
+/out.log
+/out.log.*
