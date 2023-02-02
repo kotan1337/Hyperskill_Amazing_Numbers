@@ -20,7 +20,6 @@ public class Numbers3 {
                 showProperties(n);
             } else if (n == 0) {
                 System.out.println("Goodbye!");
-                break;
             } else {
                 System.out.println("The first parameter should be a natural number or zero.");
             }

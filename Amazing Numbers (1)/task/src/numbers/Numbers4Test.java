@@ -1,17 +1,16 @@
 package numbers;
 
-import numbers.Numbers3;
 import org.junit.*;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class Numbers3Test {
-    Numbers3 n;
+public class Numbers4Test {
+    Numbers4 n;
 
     @Before
     public void setUp() throws Exception {
-        n = new Numbers3();
+        n = new Numbers4();
     }
 
     @Test
@@ -39,5 +38,13 @@ public class Numbers3Test {
         assertTrue(n.isPalindromic(121));
         assertTrue(n.isPalindromic(100000000000001L));
         assertTrue(n.isPalindromic(1234567890987654321L));
+    }
+
+    @Test
+    public void isGapful() {
+        assertTrue(n.isGapful(132));
+        assertFalse(n.isGapful(12));
+        assertFalse(n.isGapful(1));
+        assertTrue(n.isGapful(7881));
     }
 }
